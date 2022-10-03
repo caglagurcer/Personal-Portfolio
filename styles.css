@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    outline:none;
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+:root{
+    --pink:#E69FCA;
+    --dark:#b41258;
+}
+html{font-size:1em;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}   
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+/* Header Start*/
+header{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 5%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    border-bottom: 0.1em solid var(--pink);
+}
+.header .logo img {
+    height:8rem;
+}
+.header .navbar a{
+    margin:0 1rem;
+    font-size:2rem;
+    color:var(--pink)
+}
+.header .navbar a:hover{
+    text-shadow:1px 2px var(--dark);
+}
+/* Header Finish*/
+
+/* Home Start*/
+
+.home{
+    max-width:60rem;
+    display: flex;
+}
+.home .content h3{
+    padding-left: 1.7em;
+    padding-top: 5em;
+    font-size:5rem;
+    color:var(--pink);
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.home .content p {
+    padding-top: 1em;
+    padding-left: 8em;
+    color:var(--dark);
+    text-transform: uppercase;
+    font-size:2rem;
+    font-family: 'Dancing Script', cursive;
+}
+.home img{
+    background-repeat: no-repeat;
+    padding-top:15rem;
+    position: absolute;
+    right: 3rem;
+}
+
+/* Home Finish*/
