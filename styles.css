@@ -298,6 +298,11 @@ img{
     padding: 1rem;
     text-shadow: 2px 2px 1px var(--dark);
 }
+.contact p{
+    font-size: 2rem;
+    padding-top: 3rem;
+    color: #fff;
+}
 
 /* Contact Finish */
 
