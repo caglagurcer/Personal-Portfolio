@@ -162,6 +162,7 @@ span{
 .portfolio{
     background-color: var(--gray);
     padding:2rem 3em;
+    border-bottom: 1px solid var(--pink);
 }
 .portfolio .heading{
     text-align: center;
@@ -195,6 +196,49 @@ img{
     display: block;
 }
 .project{
+    background: var(--gray);
+    box-shadow: 5px 13px 18px var(--dark);
+    border-radius: 2px;
+    text-align: center;
+}
+/* Certificates Start */
+
+.certificates{
+    background-color: var(--gray);
+    padding:2rem 3em;
+}
+.certificates .heading{
+    text-align: center;
+    font-size:5rem;
+    padding-bottom: 2rem;
+    color:var(--pink);
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.certificates-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-gap:4rem;
+    width:100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+}
+.certificate-title{
+    font-size: 2rem;
+    padding: 2.3rem 1rem;
+    background-color: var(--pink);
+    color: #fff;
+}
+.certificate-image{
+    height:calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+img{
+    display: block;
+}
+.certificate{
     background: var(--gray);
     box-shadow: 5px 13px 18px var(--dark);
     border-radius: 2px;
