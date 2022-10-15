@@ -77,10 +77,10 @@ span{
 
 .home .h-content{
     max-width:60rem;
+    position: relative;
 }
 .home .h-content h3{
     padding-left: 1.7em;
-    padding-top: 1.2em;
     font-size:5rem;
     color:var(--pink);
     text-transform: uppercase;
@@ -93,10 +93,31 @@ span{
     font-size:2rem;
     font-family: 'Dancing Script', cursive;
 }
+.h-content p .second:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--gray);
+    border-left: 2px solid var(--dark);
+    animation: animate 4s steps(15) infinite;
+}
+
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left:0%;
+    }
+}
+
 .home img{
     background-repeat: no-repeat;
     position: relative;
-    padding-top: 12rem;
+    padding-top: 8.5rem;
     left: 6rem;
     width:55%;
 }
