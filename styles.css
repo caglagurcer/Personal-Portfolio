@@ -12,7 +12,7 @@
 :root{
     --pink:#E69FCA;
     --dark:#b41258;
-    --black:#000;
+    --black:#000; 
     --gray:rgb(229, 226, 226);
 }
 #menu-btn{
@@ -23,7 +23,7 @@
     color: var(--dark);
 }
 html{
-    font-size:1em;
+    font-size:1.1em;
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
